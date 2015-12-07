@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdExpReadingActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_brown3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <EditText
+                android:id="@+id/specGravityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Specific gravity of liquid"
+                android:inputType="numberDecimal" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+
+
+            <TextView
+                android:id="@+id/thirdExpFirstReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+
+            <EditText
+                android:id="@+id/thirdExpFirstEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of body in air(gm-wt)"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/thirdExpFirstEditText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of body in water(gm-wt)"
+                android:inputType="numberDecimal" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+            
+            <TextView
+                android:id="@+id/thirdExpSecondReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Second Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+             
+             <EditText
+                android:id="@+id/thirdExpSecondEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of body in air(gm-wt)"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/thirdExpSecondEditText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of body in water(gm-wt)"
+                android:inputType="numberDecimal" />
+            
+            <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+            
+            <TextView
+                android:id="@+id/thirdExpThirdReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Third Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+             
+             <EditText
+                android:id="@+id/thirdExpThirdEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of body in air(gm-wt)"
+                android:inputType="numberDecimal" />
+
+             <EditText
+                 android:id="@+id/thirdExpThirdEditText2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:hint="Weight of body in water(gm-wt)"
+                 android:inputType="numberDecimal" />
+             
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="25dp" />
+             
+             <LinearLayout
+            	android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	android:gravity="center"
+            	android:orientation="vertical" >
+             
+
+             <Button
+                 android:id="@+id/okButton3"
+                 android:layout_width="80dp"
+                 android:layout_height="80dp"
+                 android:background="@drawable/brownbutton_round"
+                 android:textSize="25dp"
+                 android:text="OK" />
+             
+             </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+</RelativeLayout>

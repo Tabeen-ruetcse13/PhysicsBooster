@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondHelpActivity" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="
+\n\nProcedure:\n
+1. First measure the weight of the cylinder in air with the help of hydrostatic balance.\n
+2. Keep a beaker full of water on a tool and place it above the balance. Dip the cylinder into water and measure its weight. This is the weight of cylinder in water.\n
+3. Continue above two process 2 times.\n
+                " />
+    	
+    	</LinearLayout>
+    	
+    </ScrollView>
+
+</RelativeLayout>

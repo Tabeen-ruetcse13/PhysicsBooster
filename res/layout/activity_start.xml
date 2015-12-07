@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity" >
+    
+     <ScrollView 
+   		android:layout_width="match_parent" 
+   		android:layout_height="match_parent"
+   		android:background="@drawable/background4">
+   		
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center">
+        
+            <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/firstExpButton"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:background="@drawable/button_background"
+                android:text="Determination of the speed of sound in air using a resonance tube" />
+            
+            <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="05dp" />
+
+            <Button
+                android:id="@+id/secondExpButton"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:background="@drawable/button_background"
+                android:text="Determination of the volume of solid cylinder using Archimedes’ law" />
+            
+            <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="05dp" />
+
+            <Button
+                android:id="@+id/thirdExpButton"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:background="@drawable/button_background"
+                android:text="Determination of specific gravity of a solid dissolvable in water using hydrostatic balance" />
+            
+            <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="05dp" />
+
+            <Button
+                android:id="@+id/fourthExpButton"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:background="@drawable/button_background"
+                android:text="Determination of specific gravity of a liquid using specific gravity bottle" />
+            
+            
+            <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="0dp" />
+            
+        
+        </LinearLayout>
+        
+   		
+     </ScrollView>
+
+</RelativeLayout>

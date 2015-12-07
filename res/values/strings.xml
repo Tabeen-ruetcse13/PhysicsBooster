@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Physics Booster</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_first_exp_start">FirstExpStartActivity</string>
+    <string name="title_activity_first_help">FirstHelpActivity</string>
+    <string name="title_activity_first_reading">FirstReadingActivity</string>
+    <string name="title_activity_first_exp_result">FirstExpResultActivity</string>
+    <string name="title_activity_second_exp_start">SecondExpStartActivity</string>
+    <string name="title_activity_second_help">SecondHelpActivity</string>
+    <string name="title_activity_second_exp_reading">SecondExpReadingActivity</string>
+    <string name="title_activity_second_exp_result">SecondExpResultActivity</string>
+    <string name="title_activity_third_exp_start">ThirdExpStartActivity</string>
+    <string name="title_activity_third_exp_reading">ThirdExpReadingActivity</string>
+    <string name="title_activity_third_help">ThirdHelpActivity</string>
+    <string name="title_activity_third_exp_result">ThirdExpResultActivity</string>
+    <string name="title_activity_fourth_exp_start">FourthExpStartActivity</string>
+
+</resources>

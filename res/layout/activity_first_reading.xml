@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstReadingActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/frequencyEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Frequency of tuning fork in Hz"
+                android:inputType="numberDecimal" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/firstReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+
+            <EditText
+                android:id="@+id/firstEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="First resonant length in cm"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/firstEditText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Second resonant length in cm"
+                android:inputType="numberDecimal" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+            
+            <TextView
+                android:id="@+id/secondReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Second Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+             
+             <EditText
+                android:id="@+id/secondEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="First resonant length in cm"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/secondEditText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Second resonant length in cm"
+                android:inputType="numberDecimal" />
+            
+            <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+            
+            <TextView
+                android:id="@+id/thirdReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Third Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+             
+             <EditText
+                android:id="@+id/thirdEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="First resonant length in cm"
+                android:inputType="numberDecimal" />
+
+             <EditText
+                 android:id="@+id/thirdEditText2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:hint="Second resonant length in cm"
+                 android:inputType="numberDecimal" />
+             
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="25dp" />
+             
+             <LinearLayout
+            	android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	android:gravity="center"
+            	android:orientation="vertical" >
+
+             <Button
+                 android:id="@+id/okButton1"
+                 android:layout_width="80dp"
+                 android:layout_height="80dp"
+                 android:background="@drawable/brownbutton_round"
+                 android:textSize="25dp"
+                 android:text="OK" />
+             
+             </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

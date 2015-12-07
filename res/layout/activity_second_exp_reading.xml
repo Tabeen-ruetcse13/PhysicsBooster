@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondExpReadingActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_brown2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <EditText
+                android:id="@+id/waterDensityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Water density at room temperature"
+                android:inputType="numberDecimal" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+
+
+            <TextView
+                android:id="@+id/secondReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+
+            <EditText
+                android:id="@+id/secondExpFirstEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of cylinder in air(gm-wt)"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/secondExpFirstEditText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of cylinder in water(gm-wt)"
+                android:inputType="numberDecimal" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+            
+            <TextView
+                android:id="@+id/secondExpSecondReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Second Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+             
+             <EditText
+                android:id="@+id/secondExpSecondEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of cylinder in air(gm-wt)"
+                android:inputType="numberDecimal" />
+            
+            <EditText
+                android:id="@+id/secondExpSecondEditText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of cylinder in water(gm-wt)"
+                android:inputType="numberDecimal" />
+            
+            <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+            
+            <TextView
+                android:id="@+id/secondExpThirdReadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Third Reading"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="15dp" />
+             
+             <EditText
+                android:id="@+id/secondExpThirdEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Weight of cylinder in air(gm-wt)"
+                android:inputType="numberDecimal" />
+
+             <EditText
+                 android:id="@+id/secondExpThirdEditText2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:hint="Weight of cylinder in water(gm-wt)"
+                 android:inputType="numberDecimal" />
+             
+             <Space
+            	android:layout_width="match_parent"
+            	android:layout_height="25dp" />
+             
+             <LinearLayout
+            	android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	android:gravity="center"
+            	android:orientation="vertical" >
+             
+
+             <Button
+                 android:id="@+id/okButton2"
+                 android:layout_width="80dp"
+                 android:layout_height="80dp"
+                 android:background="@drawable/brownbutton_round"
+                 android:textSize="25dp"
+                 android:text="OK" />
+             
+             </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
